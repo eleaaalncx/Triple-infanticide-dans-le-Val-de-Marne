@@ -1,0 +1,77 @@
+h1 {
+	color: #0C143C;
+	font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+	font-family: 'Crimson Text', serif;
+    text-align: center;
+}
+
+h5 {
+	color: #0C143C;
+}
+
+body {
+	color: #042F3D;
+	font-size: 24px;
+	background-color: #E3ECEC;
+	margin: 50px;
+}
+
+#profile {
+	width: 60px;
+	height: 75px;
+	border-radius: 50%;
+	box-shadow: 4px 3px 3px gray;
+	margin-right: 15px;
+}
+
+#samu_picture {
+	width: 800px;
+	height: 400px;
+	margin-bottom: -30px;
+}
+
+.credit_font {
+   font-size: 18px;
+   text-decoration: underline;
+}
+
+.center {
+	text-align: center;
+}
+
+.space_top {
+	margin-top: 60px;
+}
+
+.space_bottom {
+	margin-bottom: 60px;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;	
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;	
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;	
+	}
+}
